@@ -1,0 +1,21 @@
+/* components/ScrollUpButton/ScrollUpButton.css */
+.scroll-up-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.scroll-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.scroll-button:hover {
+    background-color: #555;
+}
